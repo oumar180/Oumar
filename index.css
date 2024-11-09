@@ -1,0 +1,79 @@
+
+    /* Style pour le conteneur principal */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background:#1e4d24;
+        /* Couleur de fond du body */
+    }
+
+    
+
+    /* Conteneur du formulaire avec un dégradé */
+    .form-container {
+        width: 300px;
+        padding: 20px;
+        border:  0px solid transparent; /* Bordure transparente */
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(to bottom, #1e4d24, #ffffff); /* Dégradé entre le body et le fond du formulaire */
+        text-align: center;
+    }
+
+    h1 {
+        margin-top: 0;
+        color: black;
+    }
+
+    /* Champs de saisie */
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Bouton de connexion */
+    .form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        color:white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    /* Effet de survol du bouton */
+    .form-container button:hover {
+        background-color: #1e4d24;
+    }
+
+    /* Liens */
+    .form-container a {
+        color: #1e4d24;
+        text-decoration: none;
+    }
+
+    .form-container a:hover {
+        text-decoration: underline;
+    }
+
+    /* Texte du bas */
+    .form-container p {
+        margin: 20px 0 0;
+        font-size: 14px;
+        color: #666;
+    }
+
+    /* Optionnel : effet au survol du formulaire */
+    .form-container:hover {
+        box-shadow: 0px 6px 12px rgba(0, 0, 255, 0.3); /* Ombre bleue au survol */
+    }
